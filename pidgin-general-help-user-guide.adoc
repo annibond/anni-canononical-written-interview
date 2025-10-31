@@ -1,0 +1,113 @@
+= Using Pidgin
+
+== Table of Contents
+(truncated)
+
+=== Buddy List settings
+
+**How do I set a Buddy Icon?**
+
+A Buddy Icon is your user avatar or profile picture. There are two ways to set one:
+
+==== Change your global Buddy Icon
+
+This Buddy Icon displays across all accounts and protocols.
+
+.Procedure
+
+. From the bottom of the Buddy List, click the "Image" icon. The generic icon for a user without a set Buddy Icon is an image of a faceless person with a sun in the background.
+
+. Navigate to the folder that contains the image, and click "Open".
+
+.Success Conditions
+
+The Buddy Icon displays on all accounts running in Pidgin.
+
+==== Change your Buddy Icon on an individual account or protocol
+
+This Buddy Icon displays in the account you modify. It does not display for any other accounts.
+
+.Procedure
+
+. From the Buddy List, navigate to "Accounts > Manage Accounts".
+
+. Select the appropriate account, and click "Modify".
+
+. Under "User Options", select "Use this buddy icon for this account".
+
+. Click the "image icon". The generic icon for a user without a set Buddy Icon is an image of a faceless person with a sun in the background.
+
+. Navigate to the folder that contains the image, and click "Open".
+
+. Click "Save".
+
+. Click "Close".
+
+.Success Conditions
+
+The Buddy Icon displays on the specific account you selected. Other accounts are unaffected.
+
+Some protocols limit the maximum size or dimensions of the Buddy Icon. Pidgin attempts to resize or convert the icon as necessary. However, sometimes this fails, and you need to manually convert the image size before uploading it to Pidgin.
+
+.Up-to-date known image icon restraints
+[cols="1,1,1,1"]
+|===
+
+|**Protocol** |**Dimensions** |**Format** |**File Size**
+
+|ICQ
+|**1 x 1** to **64 x 64**
+|`.gif`, `.jpg`, `.bmp`, `.ico`
+|**7168 bytes** or **7 kilobytes**
+
+|XMPP including Google Talk
+|**32 x 32** to **96 x 96**
+|`.png`
+|
+|===
+
+== Buddy Lists
+
+=== Unblocking someone
+
+.Procedure
+
+. Navigate to "Tools > Privacy"
+
+. Select the user, and click "Delete".
+
+=== Making Buddy List Entries smaller
+
+By adding a second line of text next to every Buddy List entry, you know more information about each added user. Development decided to consciously maintain additional information as part of a informative and consistent user design. User testing showed people more accurately open chats and edit buddy settings with the additional text, because when only images and names are available, it becomes harder to click the appropriate user.
+
+However, you can hide this information if you need to.
+
+.Procedure
+
+. Navigate to "Buddies > Show".
+
+. Deselect any information you no longer want to see.
+
+.Success Conditioners
+
+Your Buddy List displays only the information you find relevant.
+
+=== Importing or exporting your Buddy List
+
+This feature is not accessible by default. You can find the http://plugins.guifications.org/trac/wiki/listhandler[List Handler] plugin from the http://plugins.guifications.org/trac/wiki/PluginPack[Purple Plugin Pack]. List Handler allows you to import and export your list.
+
+=== Troubleshooting combined chat logs
+
+When logs are combined, buddies are combined even if you did not intend to link them.
+
+.Procedure
+
+. Right-click the appropriate entry from your Buddy List, and click "Expand".
+
+. Drag to remove buddies that do not belong in the contact.
+
+**Source Articles**
+
+* https://developer.pidgin.im/wiki/Using%20Pidgin.html#GettingStarted[Pidgin (Old) | User Guide | Getting Started]
+
+* https://developer.pidgin.im/wiki/Using%20Pidgin.html#BuddyListBuddyIconsAvatarsandBlocking[Pidgin (Old) | User Guide | Buddy List, Buddy Icons (Avatars), and Blocking]
