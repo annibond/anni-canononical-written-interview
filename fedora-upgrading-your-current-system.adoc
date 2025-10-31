@@ -1,0 +1,18 @@
+= Upgrading your current system
+
+== Contents
+Manual System Upgrade or Reinstallation
+
+CAUTION: Always back up your data before upgrading or reinstalling Fedora.
+
+=== Automatic upgrade using dnf system upgrade
+Fedora recommends that you upgrade your system using the 'dnf system upgrade' plugin. To perform an automatic upgrade, see https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/[Upgrading Fedora using the DNF system upgrade plugin].
+
+=== Manual reinstallation
+You can install the latest version of Fedora over your current installation of Fedora. Reinstalling overwrites the root partiton while preserving your data on other partitions and volumes.
+
+NOTE: You can use this process to perform a clean reinstallation.
+
+*Source Article*
+
+* https://docs.fedoraproject.org/en-US/fedora/latest/system-upgrade/[Fedora | Upgrading Your Current System]
