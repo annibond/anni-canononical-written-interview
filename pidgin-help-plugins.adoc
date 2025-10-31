@@ -1,0 +1,82 @@
+= Getting started with Pidgin
+
+== Plugins
+
+=== Installing plugins
+Developers usually distribute extensions as compiled, dynamically-loaded libraries that require manual installation. Some developers distribute plugins as part of a collection such as a package for specific operating system.
+
+IMPORTANT: Use the developer's official website in case there are specific installation instructions.
+
+**Windows**
+
+.Procedure
+
+. Navigate to the developer's official website, and download the `.dll` file.
+
+. Extract the `.dll` file if necessary.
+
+. Move the `.dll` file to `USER\%APPDATA%\.purple\plugins`. Replace `USER` with your username on your computer.
+
+**UNIX/LINUX**
+
+.Procedure
+
+. Navigate to the developer's official website, and download the `.so` file.
+
+. Extract the `.so` file if necessary.
+
+. Move the `.so` file to `~/.purple/plugins`.
+
+.Success Conditions
+
+The plugin launches automatically the next time you open Pidgin or Finch.
+
+=== Official plugins
+
+Pidgin and Finch ship with a large collection of oficcially-supported plugins which modify the application's standard behavior. Manage available plugins from "Buddy List > Tools > Plugins".
+
+=== Third-party plugins
+
+IMPORTANT: Third party plugins are **not supported**. Do not open tickets for third party plugins. Any tickets for third party plugins are automatically closed.
+
+If you are listing a plugin here, we automatically delist any plugins that do not provide their source code. Because pidgin and libpurple are licensed under the https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html[GLPv2], source code is required for a valid license in a GPL-compatible manner.
+
+We also remove entries that contain broken links and links that expose users to phishing sites and malware.
+
+Keep descriptions short. Do not include profanity or pornographic terminology as a part of the plugin name or in the description. We reserve the right to edit or delist plugins that include that kind of terminology or are unnecessarily long.
+
+Submit a http://developer.pidgin.im/newticket[ticket] to report any issues you experience. Bug reports need the plugin version where you experience the problem. The plugins often use the same version number as your Pidgin or Finch installation. You can also navigate to https://pidgin.im[Pidgin.im] to learn more.
+
+== Additional Protocols
+
+.Supported third-party plugins
+[cols="1,1"]
+|===
+|**Protocol name** |**Description**
+
+|https://github.com/awslabs/pidgin-chime[Amazon Chime]
+|Amazon online meeting and video conferencing application
+
+|https://github.com/nmbook/pidgin-libbnet[Battle.net classic]
+|Blizzard's gaming network including _StarCraft_, _Diablo II_, and _WarCraft III_
+
+|https://bitbucket.org/EionRobb/purple-battlenet/overview[Battle.net version 2]
+|Blizzard's gaming network for _World of Warcraft_, _Overwatch_, _Diablo IV_, and _Hearthstone_
+
+|https://code.google.com/p/purple-beluga/[Beluga]
+|Beluga mobile group messaging
+
+|https://github.com/jrfoell/campfire-libpurple/[Campfire]
+|Plugin for Basecamp's Campfire IM
+
+|https://code.ur.gs/lupine/purple-plugin-delta[Deltachat]
+|IM over email
+
+|https://github.com/EionRobb/purple-discord#readme[Discord]
+|Text chat for gamers
+|https://github.com/samuelkarp/purple-docker[Docker]
+|Send stdin commands to Docker containers
+
+|...
+|...
+|===
